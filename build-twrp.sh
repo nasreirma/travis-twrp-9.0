@@ -2,12 +2,12 @@
 WORKSPACE=~/twrp
 TWRP_SOURCE=git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
 TWRP_BRANCH=twrp-9.0
-DEVICE_CODE=spartan
-DEVICE_MANUFACTURER=realme
+DEVICE_CODE=Infinix-X605
+DEVICE_MANUFACTURER=Infinix
 DEVICE_SOURCE=https://github.com/N00bTree/android_device_realme_spartan.git
 DT_DIR=device/$DEVICE_MANUFACTURER/$DEVICE_CODE
-GIT_USER_NANE=chankruze
-GIT_USER_EMAIL=chakruze@gmail.com
+GIT_USER_NANE=nasreirma
+GIT_USER_EMAIL=nasreirma@gmail.com
 GIT_COLOR_UI=false
 ###################################################################################
 git config --global user.name $GIT_USER_NANE
