@@ -4,7 +4,7 @@ TWRP_SOURCE=git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.g
 TWRP_BRANCH=twrp-9.0
 DEVICE_CODE=Infinix-X605
 DEVICE_MANUFACTURER=Infinix
-DEVICE_SOURCE=https://github.com/N00bTree/android_device_realme_spartan.git
+DEVICE_SOURCE=https://github.com/nasreirma/android_device_Infinix-X605.git
 DT_DIR=device/$DEVICE_MANUFACTURER/$DEVICE_CODE
 GIT_USER_NANE=nasreirma
 GIT_USER_EMAIL=nasreirma@gmail.com
@@ -51,4 +51,4 @@ source build/envsetup.sh
 lunch omni_$DEVICE_CODE-eng
 echo "[I] Build started !"
 mka recoveryimage
-curl --upload-file ./out/target/product/spartan/recovery.img https://transfer.sh/twrp-spartan-001.img
+curl --upload-file ./out/target/product/spartan/recovery.img https://transfer.sh/twrp-Infinix-X605.img
